@@ -35,7 +35,7 @@ Demonstrated supervised training method on IBM 704 computer and specialized hard
     - Contributes a large database with 3.2 million labeled images across 5247 synsets.
     - Sparks competition to create better and better classification models.
     - The three main barriers to deep learning during the "Second AI Winter" were inefficient training, insufficient data, and too-weak computers. A major advance that accompanied the internet age was the growing availability of large amounts of data, particularly textual and image-based. However, substantial work was still needed to "label" that data (i.e., associate a class name with what an image is depicting). The ImageNet dataset contributed a large, publicly-available labeled dataset —marking an important milestone toward overcoming this barrier to deep learning.
-    
+
 - 2012 - Krizhevky et al.: AlexNet Deep Neural Network (DNN) with ReLU and Dropout
     - Top the field of submissions on ImageNet 2012 competition top-5 error rate by 10.8% (to 16%).
     - Key enablers:
@@ -48,6 +48,7 @@ Demonstrated supervised training method on IBM 704 computer and specialized hard
     - Breaks the record on ImageNet: Top-5 error of 3.57%.
 With the ready availability of labeled data and powerful GPU-based computation, a steady succession of new deep learning architectures, training enhancements, and related innovations begins to flow. The era of Deep Learning blooms.
 
+The ImageNet Large Scale Visual Recognition Challenge (ILSVRC) evaluates algorithms for object detection and image classification at large scale. One high level motivation is to allow researchers to compare progress in detection across a wider variety of objects -- taking advantage of the quite expensive labeling effort. Another motivation is to measure the progress of computer vision for large scale image indexing for retrieval and annotation.
 
 
 
