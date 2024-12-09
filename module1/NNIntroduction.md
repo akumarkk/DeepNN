@@ -35,6 +35,22 @@ Demonstrated supervised training method on IBM 704 computer and specialized hard
     - Contributes a large database with 3.2 million labeled images across 5247 synsets.
     - Sparks competition to create better and better classification models.
     - The three main barriers to deep learning during the "Second AI Winter" were inefficient training, insufficient data, and too-weak computers. A major advance that accompanied the internet age was the growing availability of large amounts of data, particularly textual and image-based. However, substantial work was still needed to "label" that data (i.e., associate a class name with what an image is depicting). The ImageNet dataset contributed a large, publicly-available labeled dataset —marking an important milestone toward overcoming this barrier to deep learning.
+    
+- 2012 - Krizhevky et al.: AlexNet Deep Neural Network (DNN) with ReLU and Dropout
+    - Top the field of submissions on ImageNet 2012 competition top-5 error rate by 10.8% (to 16%).
+    - Key enablers:
+        - ReLUs as non-saturating neuron activation functions.
+        - “Dropout” regularization in fully connected layers: randomly resets neuron output to 0.
+        - The mapping of the problem onto GPU (graphical processing unit) hardware, enables training of the large network, and launches ubiquitous use of GPUs in deep learning.
+- 2016 - He: ResNet-50 DNN with Residual Connections
+    - Deep neural network (DNN): 50 layers for ResNet-50.
+    - Addresses vanishing gradient problem with deep networks by using residual connections that enable more efficient learning of difference/residual functions.
+    - Breaks the record on ImageNet: Top-5 error of 3.57%.
+With the ready availability of labeled data and powerful GPU-based computation, a steady succession of new deep learning architectures, training enhancements, and related innovations begins to flow. The era of Deep Learning blooms.
+
+
+
+
 
 Machine learning seeks to apply algorithms in software applications in order to predict certain outcomes. It also uses historical data to increase the accuracy of those predictions. There are three main machine learning categories:
 - Supervised learning
