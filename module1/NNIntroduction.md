@@ -12,7 +12,6 @@ Machine learning seeks to apply algorithms in software applications in order to 
 - Unsupervised learning
 - Semi-supervised learning
 Deep learning generally falls under the categories of supervised and unsupervised learning. `Deep learning` is a type of machine learning that enables computers to learn and understand a set of concepts and improve that understanding over time. These computers are provided with simple concepts that allow them to make sense of more complex situations.
-
 Research on artificial neural networks was motivated by the observation that human intelligence emerges from highly parallel networks by adjusting the strengths of their connections
 
 Linear classifiers
