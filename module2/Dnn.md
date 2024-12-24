@@ -31,6 +31,9 @@ Training Process:
 
 *The goal of training is to find the optimal set of weights that minimize the error and enable the network to make accurate predictions on new, unseen data.*
 
+*Each neuron in the layer will produce a single output value.*
+* Linear() class in PyTorch, the out_features argument directly corresponds to the number of neurons in the layer.*
+
 ```
 layers = nn.Sequential(
             nn.Linear(input_size, hidden_size1),
@@ -46,4 +49,9 @@ layers = nn.Sequential(
         # nn.ReLU() : activation function
         # nn.Linear(hidden_size1, hidden_size2) : hidden layer which determines the weights for the second hidden layer neurons!
 
+# Yes, in torch.nn.Linear(in_features, out_features, bias=True, device=None, dtype=None), the out_features argument directly corresponds to the number of neurons in the layer.
+
+# in_features: Represents the number of input features to the layer.
+# out_features: Represents the number of output features (neurons) in the layer.
+# The out_features parameter determines the dimensionality of the output vector for a given input.
 ```
